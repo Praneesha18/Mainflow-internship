@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XssAttacks</title>
+    <link rel="stylesheet" href="/style2.css">
+
+</head>
+<body>
+    <div class="container">
+     <div id="content"></div>
+     <button onclick="start()">click</button>
+   
+</div>
+    <script>
+        let content=document.getElementById("content")
+        let para=prompt("enter any text")
+        function start(){
+            content.innerText=para  //after changing to text
+        }
+    </script>
+</body>
+<!--demonstration of attack and its solution is mentioned in linked in profile-->
+</html>
+

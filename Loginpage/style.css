@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color:white
+}
+.container{
+    padding:0 30px;
+}
+select option{
+    color:#826AFC;
+}
+.wrapper{
+    border-radius:1rem;
+    background-color:#826AFC;
+    width:30%;
+    margin:5% auto;
+    margin-top:5%;
+    font-size:1rem;
+    filter:drop-shadow(10px 10px 5px gray);   
+    font-weight: bolder;
+}
+h2{
+    padding:20px;
+    margin-bottom:1rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.container div{
+    margin-bottom:1.5rem;
+}
+input,input::placeholder{
+    padding:10px;
+    border-radius: 5px;
+    outline:none;
+    color:#826AFC;
+    border:none;
+}
+.fullname #firstname{
+    margin-right:0.5rem;
+    width:48%;
+}
+.fullname #lastname{
+    width:48%;
+}
+input[type="radio"]{
+    transform:scale(1.5);
+}
+.dob{
+    margin-left:6%;
+}
+.dob input{
+    width:15rem;
+    color:#826AFC;
+    padding:0;
+    height:30px;
+}
+.dobsex{
+    display:flex;   
+    height:40px;
+}
+.sex .gender{
+font-size:1rem;
+font-weight:lighter;
+margin-right:1rem;
+}
+
+.email input{
+    width:98%;
+}
+.phone select{
+    padding:10px;
+    width:15%;
+    border-radius:5px;
+    color:#826AFC;
+}
+.phone input{
+    width:82%;
+}
+.aadhar input{
+  width:98%;
+}
+.domain select{
+    width:98%;
+    padding:10px;
+    border-radius: 5px;
+    color:#826AFC;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    margin-top:1rem;
+    
+}
+.buttons button{
+    color:#826AFC;
+    margin-right:1rem;
+    margin-bottom:1rem;
+    padding:10px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+.check{
+    text-align: center;
+    margin-top:0.8rem;
+}
+#check{
+    transform:scale(2);
+    margin-right:5px;
+}
+.error{
+    color:red;
+    font-size:0.8rem;
+}
+
